@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(images/grass.jpg);
+}
+#field {
+    margin: auto;
+    width: 1360px;
+    height: 616px;
+    background: url(images/field.png);
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 240px 0 0 0;
+    box-sizing: border-box;
+}
+#gate {
+    margin: auto;
+    background: url(images/gate.png);
+    width: 567px;
+    height: 265px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: relative;
+}
+#ball {
+    height: 75px;
+    width: 75px;
+    background: url(images/ball.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 625px;
+    background-size: cover;
+}
+#pos1, #pos2, #pos3, #pos4 {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    background: #ffffff40;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #00000075;
+    line-height: 55px;
+    text-align: center;
+}
+#pos1 {
+    top: 15px;
+    left: 15px;
+}
+#pos2 {
+    top: 15px;
+    right: 15px;
+}
+#pos3 {
+    top: 205px;
+    left: 15px;
+}
+#pos4 {
+    top: 205px;
+    right: 15px;
+}
+#gkeeper {
+    background: url(images/gkeeper1.png);
+    background-repeat: no-repeat;
+    width: 183px;
+    height: 220px;
+    position: absolute;
+    top: 305px;
+    left: 555px;
+}
+#restart {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 505px;
+    left: 658px;
+
+}
+p {
+    position: absolute;
+    top: 535px;
+    color: white;
+    font-size: 10px;
+    display: none;
+    width: 100%;
+    text-align: center;
+}
